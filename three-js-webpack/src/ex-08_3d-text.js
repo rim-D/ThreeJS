@@ -53,9 +53,9 @@ if (WEBGL.isWebGLAvailable()) {
       curveSegments: 12,
       bevelEnabled: true,
       bevelThickness: 0.03,
-      bevelSize: 0.03,
-      bevelOffset: 0.005,
-      bevelSegments: 24
+      bevelSize: 6,
+      bevelOffset: 1,
+      bevelSegments: 8
     });
 
     // 텍스트 원점
